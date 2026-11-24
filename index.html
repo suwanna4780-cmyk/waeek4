@@ -1,15 +1,57 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8" />
-<link href="/src/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link href="/src/style.css" rel="stylesheet">
 </head>
-<body class="bg-slate-50">
-<nav class="flex gap-6 bg-slate-900 p-4 text-white">
-<a href="#/">หน้าแรก</a>
-<a href="#/admin">แอดมิน</a>
-</nav>
-<main id="app" class="p-6"></main>
-<script type="module" src="/src/main.js"></script>
+
+<body class="bg-slate-100">
+
+    <nav class="bg-slate-950 text-white shadow-xl">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+
+            <div class="flex justify-between items-center mb-5">
+                <h1 class="text-xl font-bold tracking-wide">
+                    Thanakron Deelartam
+                </h1>
+                <span class="text-sm text-blue-400">
+                    ● ONLINE
+                </span>
+            </div>
+
+            <div class="flex justify-center flex-wrap gap-3">
+
+                <a href="#/"
+                   class="px-5 py-2 rounded-xl  hover:bg-blue-500 transition duration-300 font-medium">
+                    หน้าแรก
+                </a>
+
+                <a href="#/admin"
+                   class="px-5 py-2 rounded-xl hover:bg-blue-500 transition duration-300 font-medium">
+                    แอดมิน
+                </a>
+
+                <a href="#/contact"
+                   class="px-5 py-2 rounded-xl hover:bg-blue-500 transition duration-300 font-medium">
+                    ติดต่อเรา
+                </a>
+
+                <a href="#/about"
+                   class="px-5 py-2 rounded-xl hover:bg-blue-500 transition duration-300 font-medium">
+                    เกี่ยวกับเรา
+                </a>
+
+            </div>
+        </div>
+    </nav>
+
+    <main id="app" class="max-w-6xl mx-auto p-6"></main>
+
+    <script type="module" src="/src/main.js"></script>
+
 </body>
 </html>
+
